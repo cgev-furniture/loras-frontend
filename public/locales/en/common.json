@@ -1,0 +1,10 @@
+{
+  "nav": { "home": "TODO", "portfolio": "TODO", "contact": "TODO", "admin": "TODO" },
+  "hero": { "tagline": "TODO", "subheadline": "TODO", "cta_primary": "TODO", "cta_secondary": "TODO" },
+  "about": { "title": "TODO", "statement": "TODO" },
+  "services": { "cnc": "TODO", "cnc_desc": "TODO", "furniture": "TODO", "furniture_desc": "TODO", "printing": "TODO", "printing_desc": "TODO", "laser": "TODO", "laser_desc": "TODO", "outdoor": "TODO", "outdoor_desc": "TODO" },
+  "footer": { "copyright": "TODO", "instagram": "TODO" },
+  "whatsapp": { "chat": "TODO" },
+  "lang": { "hy": "TODO", "ru": "TODO", "en": "TODO" },
+  "trust": { "projects": "TODO", "disciplines": "TODO", "location": "TODO" }
+}

@@ -1,0 +1,30 @@
+{
+  "page_title": "TODO",
+  "page_description": "TODO",
+  "headline": "TODO",
+  "subheadline": "TODO",
+  "form": {
+    "name": "TODO",
+    "email": "TODO",
+    "phone": "TODO",
+    "message": "TODO",
+    "submit": "TODO",
+    "success": "TODO",
+    "error": "TODO",
+    "char_count": "TODO"
+  },
+  "details": {
+    "whatsapp": "TODO",
+    "phone": "TODO",
+    "email": "TODO",
+    "instagram": "TODO",
+    "location": "TODO"
+  },
+  "validation": {
+    "name_required": "TODO",
+    "email_required": "TODO",
+    "email_invalid": "TODO",
+    "message_required": "TODO",
+    "message_max": "TODO"
+  }
+}

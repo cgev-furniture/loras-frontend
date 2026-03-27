@@ -1,0 +1,52 @@
+{
+  "login": {
+    "title": "TODO",
+    "username": "TODO",
+    "password": "TODO",
+    "submit": "TODO",
+    "error": "TODO"
+  },
+  "dashboard": {
+    "title": "TODO",
+    "published": "TODO",
+    "drafts": "TODO",
+    "inquiries": "TODO",
+    "unread": "TODO"
+  },
+  "projects": {
+    "title": "TODO",
+    "add": "TODO",
+    "edit": "TODO",
+    "delete": "TODO",
+    "publish": "TODO",
+    "unpublish": "TODO",
+    "search": "TODO"
+  },
+  "form": {
+    "title": "TODO",
+    "description": "TODO",
+    "categories": "TODO",
+    "featured": "TODO",
+    "slug": "TODO",
+    "save": "TODO",
+    "draft": "TODO",
+    "publish": "TODO"
+  },
+  "inquiries": {
+    "title": "TODO",
+    "mark_read": "TODO",
+    "mark_unread": "TODO"
+  },
+  "categories": {
+    "title": "TODO",
+    "add": "TODO",
+    "rename": "TODO",
+    "delete": "TODO"
+  },
+  "session_expired": "TODO",
+  "password_change": {
+    "title": "TODO",
+    "submit": "TODO"
+  },
+  "logout": "TODO"
+}
