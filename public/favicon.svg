@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 56" role="img" aria-label="LORAS Furniture">
+  <title>LORAS Furniture</title>
+
+  <!-- LA Mark: geometric triangular symbol — favicon -->
+  <!-- Left leg (L element) — dark espresso -->
+  <polygon points="2,52 16,52 32,4 18,4" fill="#321B12"/>
+  <!-- Right leg and apex — warm caramel -->
+  <polygon points="32,4 46,52 32,52 18,4" fill="#8B622F"/>
+  <!-- Crossbar — espresso -->
+  <rect x="12" y="33" width="28" height="5" fill="#321B12"/>
+</svg>

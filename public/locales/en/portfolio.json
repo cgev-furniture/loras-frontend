@@ -1,0 +1,23 @@
+{
+  "page_title": "TODO",
+  "page_description": "TODO",
+  "filter": {
+    "clear_all": "TODO",
+    "no_results": "TODO",
+    "view_all": "TODO",
+    "view_all_short": "TODO"
+  },
+  "card": {
+    "view": "TODO"
+  },
+  "pagination": {
+    "prev": "TODO",
+    "next": "TODO"
+  },
+  "loading": "TODO",
+  "featured": {
+    "title": "TODO",
+    "subtitle": "TODO",
+    "view_all": "TODO"
+  }
+}
