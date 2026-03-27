@@ -1,3 +1,17 @@
-// useCategories — fetches the full category list from GET /api/v1/categories.
-// Returns { categories, loading, error }
-// Used by the Portfolio filter bar and admin ProjectForm category multi-select.
+import { useState, useEffect } from 'react';
+import api from '../services/api';
+
+export function useCategories() {
+  const [categories, setCategories] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    api.get('/api/v1/categories')
+      .then(res => setCategories(res.data))
+      .catch(err => setError(err))
+      .finally(() => setLoading(false));
+  }, []);
+
+  return { categories, loading, error };
+}

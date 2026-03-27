@@ -1,12 +1,25 @@
-// i18n configuration — i18next with i18next-http-backend.
-//
-// Languages: hy (Armenian, default), ru (Russian), en (English)
-// Namespaces: common, portfolio, contact, admin
-// Default namespace: common
-//
-// Locale files loaded lazily at runtime from /locales/{lang}/{namespace}.json
-// Language persisted to localStorage key 'loras-lang'
-// On language change: document.documentElement.lang is updated
-//
-// Fallback language: en
-// Detection order: localStorage → navigator → fallback
+import i18n from 'i18next';
+import { initReactI18next } from 'react-i18next';
+import HttpBackend from 'i18next-http-backend';
+import LanguageDetector from 'i18next-browser-languagedetector';
+
+i18n
+  .use(HttpBackend)
+  .use(LanguageDetector)
+  .use(initReactI18next)
+  .init({
+    fallbackLng: 'en',
+    supportedLngs: ['hy', 'ru', 'en'],
+    defaultNS: 'common',
+    ns: ['common', 'portfolio', 'contact', 'admin'],
+    backend: { loadPath: '/locales/{{lng}}/{{ns}}.json' },
+    detection: {
+      order: ['localStorage', 'navigator'],
+      caches: ['localStorage'],
+      lookupLocalStorage: 'loras_lang',
+    },
+    interpolation: { escapeValue: false },
+    react: { useSuspense: true },
+  });
+
+export default i18n;
