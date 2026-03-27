@@ -412,3 +412,9 @@
   z-index: var(--z-overlay);
   backdrop-filter: blur(2px);
 }
+
+/* ─── Page-level Suspense / loading fallback ──────────────────── */
+.page-loading {
+  min-height: 100vh;
+  background-color: var(--bg-content);
+}

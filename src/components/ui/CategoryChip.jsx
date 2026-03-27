@@ -1,6 +1,14 @@
-// CategoryChip — filter chip with aria-pressed for Portfolio filter bar.
-// Props: label (string), active (boolean), onClick (function)
-// Implements WCAG: aria-pressed, min 44×44px touch target.
-export default function CategoryChip() {
-  return null;
+export default function CategoryChip({ category, label, active, onClick }) {
+  // Support both `category` (object with .name) and legacy `label` (string)
+  const displayLabel = label ?? (typeof category === 'string' ? category : category?.name);
+  return (
+    <button
+      type="button"
+      className="chip"
+      aria-pressed={!!active}
+      onClick={onClick}
+    >
+      {displayLabel}
+    </button>
+  );
 }
